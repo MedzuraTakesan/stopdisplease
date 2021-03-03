@@ -2,8 +2,8 @@
   <b-navbar class="headerLayout" sticky type="dark" variant="dark">
     <b-navbar-brand href="#">StopDis</b-navbar-brand>
     <b-navbar-nav type="dark">
-      <b-nav-item href="#"> {{ $t('Home') }} </b-nav-item>
-      <b-nav-item href="#"> {{ $t('About us') }} </b-nav-item>
+      <b-nav-item href="/"> {{ $t('Home') }} </b-nav-item>
+      <b-nav-item href="/products"> {{ $t('Products') }} </b-nav-item>
     </b-navbar-nav>
     <b-row class="ml-auto">
       <b-col align-self="center" cols="4">

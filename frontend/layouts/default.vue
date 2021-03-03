@@ -1,7 +1,8 @@
 <template>
   <div>
-    <header-layout/>
+    <header-layout />
     <Nuxt />
+    <footer-layout />
   </div>
 </template>
 
@@ -9,9 +10,11 @@
 import Vue from 'vue'
 import Component from 'nuxt-class-component'
 import HeaderLayout from '@/components/layouts/default/HeaderLayout.vue'
+import FooterLayout from "~/components/layouts/default/FooterLayout.vue";
 
 @Component({
   components: {
+    FooterLayout,
     HeaderLayout
   }
 })
